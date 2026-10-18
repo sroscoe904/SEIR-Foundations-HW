@@ -1,12 +1,9 @@
-Class 8 Week 1
 
 
 
 
-
-
-| Header 1 | Header 2 | Header 3 | Header 4 | Header 5 |
-| --- | --- | --- | --- | --- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 | Row 1, Col 4 | Row 1, Col 5 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | Row 2, Col 4 | Row 2, Col 5 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 | Row 3, Col 4 | Row 3, Col 5 |
+| Deployment | Public IPv4 address | Connection method | Screenshot | Instance terminated? |
+|---|---|---|---|---|
+| 1 | `3.21.231.53` | EC2 Connect | `screenshots/deployment-1.png` | Yes |
+| 2 | `13.184.21.219` | SSH | `screenshots/deployment-2.png` | Yes |
+| 3 | `52.14.66.151` | SSH | `screenshots/deployment-3.png` | Yes |
