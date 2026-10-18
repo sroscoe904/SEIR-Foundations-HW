@@ -17,7 +17,7 @@ For the second deployment, we connected to our instance via SSH using Git Bash. 
 
 
 ## **Deployment 3**
-Same as the second deployment, we accessed the instance via SSH using Git Bash. After the third time, the process was fluid. SEIR Dashboard displayed showing all details of previous deployments.
+Same as the second deployment, we accessed the instance via SSH using Git Bash. After the third time, the process was fluid. SEIR Dashboard shows the same CPU, memory, disk, and uptime details as the previous deployments.
 <img width="2043" height="1063" alt="9" src="https://github.com/user-attachments/assets/97b14743-e606-4055-ab94-dcc6bcaf6127" />
 <img width="548" height="528" alt="11" src="https://github.com/user-attachments/assets/ed49c9f9-7e29-4b73-acf7-6f4e19641a79" />
 
