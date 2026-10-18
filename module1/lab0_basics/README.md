@@ -11,16 +11,15 @@ We launched the instance from the saved template shown above. After waiting for 
 
 
 ## **Deployment 2**
-For the second deployment, we connected to our instance via SSH using Gitbash. We were given a couple of commands; one for changing the permissions of the key pair file, and another for logging into our specific user account from our local terminal. Doing this procedure helped to solidify my understanding of SSH and how it works with the AWS architecture. Just like deployment 1, after logging in, we were able to see the SEIR dashboard details. Instance was terminated shortly after.
+For the second deployment, we connected to our instance via SSH using Git Bash. We were given a couple of commands; one for changing the permissions of the key pair file, and another for logging into our specific user account from our local terminal. Doing this procedure helped to solidify my understanding of SSH and how it works with the AWS architecture. Just like deployment 1, after logging in, we were able to see the SEIR dashboard details. Instance was terminated shortly after.
 <img width="2057" height="1061" alt="6" src="https://github.com/user-attachments/assets/93bb4d3c-3e3b-4e4f-bf9b-7d31aa3417e6" />
 <img width="564" height="531" alt="8" src="https://github.com/user-attachments/assets/445afdb3-e2fa-43c0-b47e-62b84c2ea822" />
 
 
 ## **Deployment 3**
-Same as the second deployment, we accessed the instance via SSH using Gitbash. After the third time, the process was fluid. Termination of all instances complete.
+Same as the second deployment, we accessed the instance via SSH using Git Bash. After the third time, the process was fluid. Termination of all instances complete.
 <img width="2043" height="1063" alt="9" src="https://github.com/user-attachments/assets/97b14743-e606-4055-ab94-dcc6bcaf6127" />
 <img width="548" height="528" alt="11" src="https://github.com/user-attachments/assets/ed49c9f9-7e29-4b73-acf7-6f4e19641a79" />
-<img width="2525" height="1160" alt="12" src="https://github.com/user-attachments/assets/1e26ecbe-017d-4139-a138-7b2d90b2ef79" />
 
 
 ## **Dashboard Details**
@@ -33,7 +32,7 @@ Disk usage (SSD/HDD): Long-term storage for saving files, folders, photos, etc. 
 Uptime: Amount of time said device has been running since the last boot or restart. All instances were up 5 minutes or less, decreasing costs in the process.
 
 
-## **Repitition**
+## **Repetition**
 The ability to correctly SSH into EC2 instance via a local terminal is an important skill that I can say I'm now confident in performing. 
 
 
@@ -47,3 +46,9 @@ Only error I ran into during the lab was accessing the webpage. I forgot to add 
 | 1 | `3.21.231.53` | EC2 Connect | [screenshots/deployment-1.png](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lab0_basics/screenshots/deployment-1.png) | Yes |
 | 2 | `13.184.21.219` | SSH | [screenshots/deployment-2.png](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lab0_basics/screenshots/deployment-2.png) | Yes |
 | 3 | `52.14.66.151` | SSH | [screenshots/deployment-3.png](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lab0_basics/screenshots/deployment-3.png) | Yes |
+
+
+## **Cleanup Confirmation**
+I kept my launch template (`lab0_LT`) for future labs. All three practice instances were terminated, and I checked the EC2 console afterward to confirm no instances were still running. I did not purchase any Elastic IP addresses, and no private keys or credentials appear in my screenshots.
+<img width="2239" height="320" alt="image" src="https://github.com/user-attachments/assets/6147bd9e-4256-42fd-9b9b-b261c2460fad" />
+<img width="2525" height="1160" alt="12" src="https://github.com/user-attachments/assets/1e26ecbe-017d-4139-a138-7b2d90b2ef79" />
