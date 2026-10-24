@@ -1,0 +1,3 @@
+Spotter = Taron Warrior
+Teammates = Ros Bailey, Matt Blac, Darian George, Brandon Morse
+Days and Times when team meets = Monday 8pm EST, Saturday 5pm EST, Sunday 9am EST
