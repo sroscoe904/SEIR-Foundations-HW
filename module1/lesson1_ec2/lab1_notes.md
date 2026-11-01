@@ -25,25 +25,25 @@ Unique line of run: INFO:     Started server process [35962]
 Three things learned: You can clone your own repo on virtually any EC2 with the git clone command. No errors happened in this run. What changed in this run was the payment post when I tried changing the account number for Alice Johnson. It came back with a REJECTED message, letting me know the account didn't exist. Instance was terminated and no resources were left behind.
 
 Run 4
-Instance ID: 
-Public DNS (IPv4):
-Boot Time:
-Unique line of run: 
-Three things learned:
+Instance ID: i-06d2b5b67d9d11dc9
+Public DNS (IPv4): ec2-54-89-203-233.compute-1.amazonaws.com
+Boot Time: 2026-11-01 15:00:17
+Unique line of run: INFO:     Started server process [37313]
+Three things learned: No errors occurred in this run. Instance was terminated and no resources were left behind.
 
 Run 5
-Instance ID: 
-Public DNS (IPv4):
-Boot Time:
-Unique line of run: 
-Three things learned:
+Instance ID: i-0ea77c059523a85a2
+Public DNS (IPv4): ec2-98-81-192-224.compute-1.amazonaws.com
+Boot Time: 2026-11-01 18:45:56
+Unique line of run: INFO:     Started server process [36574]
+Three things learned: In the banking interface, /ask and /payments are POST HTTP request, meaning they're sending your entries (data) to the server. No errors occurred in this run. Instance terminated and no resources were left behind. What changed in this run was when I tried editing the value of the schema in /ask to a question and got a "422 Unprocessable Entity" error. I just had to flip them around. Instead of typing in the question in the "question" field, I instead typed it in the "string" field and got the 200 OK HTTP code.
 
 Run 6
 Instance ID: 
 Public DNS (IPv4):
 Boot Time:
 Unique line of run: 
-Three things learned:
+Three things learned: You can create different account 
 
 Run 7
 Instance ID: 
@@ -59,6 +59,7 @@ COBOL Practice:
 
 Mistakes I made:
 Trying to copy commands from within the terminal and pasting them using CTRL-C instead of just copy and pasting them from the runbook.
+Tried editing the value of the schema in /ask to a question and got a "422 Unprocessable Entity" error.
 
 
 
