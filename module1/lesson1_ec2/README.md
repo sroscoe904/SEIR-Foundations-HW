@@ -1,8 +1,8 @@
 | Run | Date | Time Zone | Instance ID | Boot Time (UTC) | Public DNS | Screenshot | Terminated? |
 |---|---|---|---|---|---|---|---|
 | 1 | 10/30/2026 | America/Chicago | i-0f56055ac1936da2b | 2026-10-30 22:54:37 | ec2-3-87-78-247.compute-1.amazonaws.com | [lab1_run1.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run1.jpg) | Yes |
-| 2 |  |  |  |  |  |  | Yes |
-| 3 |  |  |  |  |  |  | Yes |
+| 2 | 10/31/2026 | America/Chicago | i-01190c552a22032ef | 2026-10-31 15:07:52 | ec2-184-198-223-252.compute-1.amazonaws.com | [lab1_run2.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run2.jpg) | Yes |
+| 3 | 11/01/2026 | America/Chicago | i-0a7b691434925f427 | 2026-11-01 00:43:14 | ec2-54-242-134-179.compute-1.amazonaws.com | [lab1_run3.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run3.jpg) | Yes |
 | 4 |  |  |  |  |  |  | Yes |
 | 5 |  |  |  |  |  |  | Yes |
 | 6 |  |  |  |  |  |  | Yes |
