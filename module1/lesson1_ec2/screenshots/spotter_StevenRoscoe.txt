@@ -1,0 +1,23 @@
+Five Things I Learned
+
+Spotter = Taron Warrior
+
+
+
+
+
+
+
+
+
+I am the spotter for = Taron Warrior
+
+1. A golden AMI, like an image of a physical computer, can be used for creating different versions of an already launched instance that's been previously configured. They're useful for security patching, updating application dependencies, OS configuration, etc. If there are problems with your most recent version of the AMI, you can you can launch a previous version of the instance while investigating the issues of the newest version. 
+
+2. Favicon files are images of website logos you see when browsing search engines or clicking on a webpage. Some examples would be the black cat for GitHub, the colorful G for Google, and the black spiral for ChatGPT. I received a "404 Not Found" error when first opening the banking interface on the web. The terminal returned 404 because there was no such favicon file associated with the interface. 
+
+3. A GET request requests information from a website. For example, you walk into a restaurant and ask for the menu. You're expecting to "get" something after asking the front or the waitress. This is the same as you asking the website for information and it sending you back a 200 OK code letting you know the information was sent. A POST request, on the other hand, is information being sent to website so it can do something with it. An example of this would be uploading a document, creating a new user account, making a purchase online, etc. 
+
+4. You can clone your own GitHub repository on virtually any EC2 instance without the need to authenticate or use tokens. Simply typing in the "git clone" command along with your GitHub's link will have it sent to the instance with every single folder in it.
+
+5. While an instance is running, you can launch a second instance using the same using the same IP command to log into it as the first one. When doing one of the runs, I was able to launch into the same instance to ask the COBOL core questions via the banking interface and the "curl" command. 
