@@ -5,22 +5,23 @@ AI used: Claude/Copilot
 Prompt(s) I asked the AI: Databases. Why does almost every application need them?
 One thing the AI said that I double-checked, and what I found: In simple terms, Claude says data persistence and retrieval, integrity, organization and administration are the main points as to why applications need databases. I cross-referenced this with the source provided by Claude, as well as IBM's interpretation of databases and found this to be true. (https://www.ibm.com/think/topics/database; databases support data usability, integrity, security and compliance | https://www.prisma.io/blog/introduction-to-databases-jmt9jwidtc2a; databases are logical structures used to organize and store data for future processing, retrieval, or evaluation)
 
-Paragraph: A database is a collection of information or data stored in a table, key-value, graph, or document format. Almost every application needs a database because almost every application needs a way to remember something. There are many types of databases, but the two distinct ones are relational and non-relational. You would choose a relational database, as an example, if you had an online store and needed to remember a customer, customer order, payment, etc. These things "relate" to one another and fall under a foreign key that connects/relates to other primary keys in different tables. A non-relational database would be a good use-case when it comes to a product catalog. A TV, milk, tires and more all have different characteristics and for the most part aren't related. The de facto standards for database use are as follows: Microsoft SQL Server for Microsoft-heavy environments, PostgreSQL for general uses with modern applications, SQLite for lightweight and local applications like Balerica, and MySQL for web applications. SQL is a language used to interact with a relational database to search for an item or group of items, while NoSQL is more like a family of databases that organize data differently based on their type. 
+Paragraph: A database is a collection of information or data stored in a table, key-value, graph, or document format. Almost every application needs a database because almost every application needs a way to remember something.  There are many types of databases, but the two distinct ones are relational and non-relational. You would choose a relational database, as an example, if you had an online store and needed to remember a customer, customer order, payment, etc. These things "relate" to one another and fall under a foreign key that connects/relates to other primary keys in different tables. A non-relational database would be a good use-case when it comes to a product catalog.  A TV, milk, tires and more all have different schema and for the most part aren't related. The de facto standards for database use are as follows:  Microsoft SQL Server for Microsoft-heavy environments, PostgreSQL for general uses with modern applications, SQLite for lightweight and local applications like Balerica, and MySQL for web applications. PostgreSQL is also pretty powerful because of its SQL capabilities and support for structure as well as JSON data; however, it requires more administration when self-managed and isn't always the best answer for every highly distributed workload. SQL is a language used to interact with a relational database to search for an item or group of items, while NoSQL is more like a family of databases that organize data differently based on their type. 
 
 No numbers were used in this topic.
 
 === Topic 2: COBOL ===
 Read: Wikipedia: COBOL
 Watched: Fireship: COBOL in 100 Seconds
-AI used: Copilot/Claude
-Prompt(s) I asked the AI:
-One thing the AI said that I double-checked, and what I found:
+AI used: Copilot
+Prompt(s) I asked the AI: How much effort would replacing COBOL take, and why have so many replacement projects struggled?
+One thing the AI said that I double-checked, and what I found: 
 
-Paragraph: COBOL (Common Business-Oriented Language) is a computer programming language developed in 1959 by the developers under the name CODASYL. 
+Paragraph: COBOL (Common Business-Oriented Language) is a computer programming language developed in 1959 by the developers under the name CODASYL. COBOL is more associated with mainframes and large government and financial systems because it was designed around processing large amounts of business data and supports precise fixed-point decimal calculations. IBM estimates between 200 and 250 billion lines of COBOL still in production and said around 70% of large corporations rely on COBOL for much of their mission-critical work. Replacing systems engineered in COBOL is difficult because it's not just the source code that needs to be changed. There's decades of business rules, databases, transaction processing, integrations, and surrounding infrastructure, which is why organizations instead try to communicate with this older technology through the use of modern infrastructure and APIs. This is similar to the Balerica lab because FastAPI provides the modern interface while COBOL continues performing the core processes in the background.
 
 Numbers + sources:
-- (number) — (source, year)
-
+1959 - (https://www.ibm.com/think/topics/cobol, IBM 2026)
+200-250 billion lines of code - (https://community.ibm.com/community/user/blogs/trevor-eddolls1/2022/11/16/cobol-past-present-and-future, IBM 2022)
+70% - (https://community.ibm.com/community/user/blogs/trevor-eddolls1/2022/11/16/cobol-past-present-and-future, IBM 2022)
 
 
 === Topic 3: SWIFT ===
