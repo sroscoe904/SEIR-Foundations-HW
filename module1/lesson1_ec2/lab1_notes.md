@@ -197,7 +197,7 @@ Return code: 12
 
 Meaning: Environment/file access failure
 
-6. Fixed-Width Ledger
+7. Fixed-Width Ledger
 
 Alice's raw balance: 000000500000
 
@@ -205,7 +205,7 @@ Decoded balance: $5000.00
 
 Decimal: There's no decimal in the output because COBOL treats the decimal point as an implied or virtual position in the number rather than storing an actual dot character.
 
-7. Payment Journal
+8. Payment Journal
 
 Command: cat data/payments.dat
 
