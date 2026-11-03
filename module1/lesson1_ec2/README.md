@@ -5,5 +5,5 @@
 | 3 | 11/01/2026 | America/Chicago | i-0a7b691434925f427 | 2026-11-01 00:43:14 | ec2-54-242-134-179.compute-1.amazonaws.com | [lab1_run3.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run3.jpg) | Yes |
 | 4 | 11/01/2026 | America/Chicago | i-06d2b5b67d9d11dc9 | 2026-11-01 15:00:17 | ec2-54-89-203-233.compute-1.amazonaws.com | [lab1_run4.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run4.jpg) | Yes |
 | 5 | 11/01/2026 | America/Chicago | i-0ea77c059523a85a2 | 2026-11-01 18:45:56 | ec2-98-81-192-224.compute-1.amazonaws.com | [lab1_run5.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run5.jpg) | Yes |
-| 6 |  |  |  |  |  |  | Yes |
-| 7 |  |  |  |  |  |  | Yes |
+| 6 | 11/02/2026 | America/Chicago | i-0a2c437d5fe863dd8 | 2026-11-03 00:12:38 | ec2-98-81-173-90.compute-1.amazonaws.com | [lab1_run6.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run6.jpg) | Yes |
+| 7 | 11/02/2026 | America/Chicago | i-00007fc280b3d8bec | 2026-11-03 00:39:25 | ec2-34-235-128-55.compute-1.amazonaws.com | [lab1_run7.jpg](https://github.com/sroscoe904/SEIR-Foundations-HW/blob/main/module1/lesson1_ec2/screenshots/lab1_run7.jpg) | Yes |
