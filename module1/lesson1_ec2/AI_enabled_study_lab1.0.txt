@@ -16,7 +16,7 @@ AI used: Copilot/Claude
 Prompt(s) I asked the AI:
 One thing the AI said that I double-checked, and what I found:
 
-Paragraph: COBOL (Common Business-Oriented Language) is a computer programming language 
+Paragraph: COBOL (Common Business-Oriented Language) is a computer programming language developed in 1959 by the developers under the name CODASYL. 
 
 Numbers + sources:
 - (number) — (source, year)
@@ -26,7 +26,7 @@ Numbers + sources:
 === Topic 3: SWIFT ===
 Read: Wikipedia: SWIFT
 Watched: a16z: Foreign Exchange 101
-AI used: Copilot
+AI used: 
 Prompt(s) I asked the AI:
 One thing the AI said that I double-checked, and what I found:
 
@@ -40,7 +40,7 @@ Numbers + sources:
 === Topic 4: APIs ===
 Read: MDN: An overview of HTTP
 Watched: IBM Technology: What is a REST API?
-AI used: Copilot
+AI used: 
 Prompt(s) I asked the AI:
 One thing the AI said that I double-checked, and what I found:
 
@@ -54,7 +54,7 @@ Numbers + sources:
 === Topic 5: Intersection of COBOL, SWIFT, APIs & databases ===
 Read: US GAO (2025): Modernizing Critical Decades-Old Legacy Systems
 Watched: Modernizing COBOL: From Mainframe to API
-AI used: Copilot
+AI used: 
 Prompt(s) I asked the AI:
 One thing the AI said that I double-checked, and what I found:
 
