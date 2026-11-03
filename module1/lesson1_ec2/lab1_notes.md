@@ -65,10 +65,15 @@ Unique line of run: INFO:     Started server process [36574]
 Three things learned: In the banking interface, /ask and /payments are POST HTTP request, meaning they're sending your entries (data) to the server. No errors occurred in this run. Instance terminated and no resources were left behind. What changed in this run was when I tried editing the value of the schema in /ask to a question and got a "422 Unprocessable Entity" error. I just had to flip them around. Instead of typing in the question in the "question" field, I instead typed it in the "string" field and got the 200 OK HTTP code.
 
 Run 6
-Instance ID: 
-Public DNS (IPv4):
-Boot Time:
-Unique line of run: 
+
+Instance ID:  i-0a2c437d5fe863dd8
+
+Public DNS (IPv4): ec2-98-81-173-90.compute-1.amazonaws.com
+
+Boot Time: 2026-11-03 00:12:38
+
+Unique line of run: INFO:     Started server process [35139]
+
 Three things learned: You can create different account 
 
 Run 7
