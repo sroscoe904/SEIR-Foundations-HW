@@ -1,0 +1,32 @@
+AI used = Claude 
+
+Conversation share link = https://claude.ai/share/8e881a07-03b0-4426-ba1f-0320f8a58a99
+
+Q1: When it says "ec2 metadata," is it referring to the install script you add in before you create the instance?
+AI's answer, in my own words: No, it's is separate from the user data script. The `-i` flag displays the instance ID.
+How I checked it: I ran the command on my EC2 instance and saw the output "instance-id: i-0f56055ac1936da2b". 
+
+
+Q2: So I'm starting to get an understanding of how this particular runbook is set up. The return codes are basically COBOL's way of letting you know whose account is active/non-active and can take payments? Am I correct in saying that?
+AI's answer, in my own words: No, return codes describe the way COBOL programs are executed, not just whether an account is active. 
+How I checked it: I ran the commands that return codes 0, 4, 8, and 12. I received four different responses including REJECTED, SUCCESS, ACCOUNT NOT FOUND and ENVIRONMENT FAILURE.
+
+
+Q3: Even though I myself am not Alice Johnson, it looks like I posted a payment to the account. I say this because of the output: STATUS=POSTED and REASON=APPROVED. It was approved, so I didn't necessarily put any money into the account myself. Is this a fair assessment?
+AI's answer, in my own words: The command recorded a payment for account 100001 without using real money. `APPROVED` means COBOL accept the post based on the interface's business rules.
+How I checked it: I looked at the output which showed the account, amount, reason, and approval status. I saw there was no money added to the balance meaning it's just a post.
+
+
+Q4: What are the differences between GET and POST?
+AI's answer, in my own words: A GET HTTP request asking for information from a server. A POST HTTP request is used to send information to a server to create or change something. In the banking interface, `GET /accounts/{id}` retrieves account information, while `POST /payments` submits a payment request.
+How I checked it: I looked in the runbook to compare examples and the GET requests appearing in the Uvicorn logs when the app was running.
+
+
+Q5: So after looking it up, it shows favicon as a small icon usually next to bookmarks and webpages that make searching for websites easier. So in this case, the 404 error could mean the banking interface doesn't have an icon since it uses HTTP. Am I close in saying this?
+AI's answer, in my own words: A favicon is a small website icon and the 404 meant the file wasn't available. HTTP and HTTPS has nothing to do with favicons. The browser automatically requested "/favicon.ico", and the application did not have that file to serve. This didn't mean the interface failed to run.
+How I checked it: I looked at the Uvicorn logs and saw the request for "/favicon.ico" after the browser loaded the page. I also looked up what a favicon is. The application continued running even though there was a 404 response.
+
+
+## Where the AI was wrong, vague, or out of date
+
+It involved the time zone command using "uptime -s". At first, Claude explained that the command prints the boot time in the instance's own time zone. Later, after the Lesson 1 README was fininshed and pushed to GitHub, Claude corrected that explanation: the boot time for this lab is UTC. I found this by comparing the command's output with my local time, checking `date -u`, and then checking the README. 
