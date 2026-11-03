@@ -74,13 +74,13 @@ Boot Time: 2026-11-03 00:12:38
 
 Unique line of run: INFO:     Started server process [35139]
 
-Three things learned: You can create different account 
+Three things learned: While looking through the schema, I noticed that the banking application was running on SQLite, which is a lightweight version of SQL for less intensive application. This makes sense because the instance only needs 2GB to run this application.
 
 Run 7
-Instance ID: 
-Public DNS (IPv4):
-Boot Time:
-Unique line of run: 
+Instance ID: i-00007fc280b3d8bec
+Public DNS (IPv4): ec2-34-235-128-55.compute-1.amazonaws.com
+Boot Time: 2026-11-03 00:39:25
+Unique line of run: INFO:     Started server process [35220]
 Three things learned:
 
 
