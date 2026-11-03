@@ -2,10 +2,18 @@ Five Things I Learned
 
 Spotter = Taron Warrior
 
+1. One big thing for me is getting comfortable with GitHub again, especially with how repositories store files , how commits track your changes over time, and how pushing and pulling moves work between
+your computer and the remote repo. This refresh helps me  collaborate instead of just storing files online.
 
+2. Ive learned how two people work together through shared repos, where you might make a branch, make changes, and then create a pull request so your teammate can review before merging.
 
+3. Building the EC2 portion taught me how servers work in practice. Connecting through SSH and cleaning up my volumes and elastic IPs to help prevent leftover charges in the console.
 
+4. COBOL introduced me to thinking in terms of return codes, like 0, 4, 8, and 12, and what each number means as far as troubleshooting is concerned. Also showing how environment setup problems could 
+happen in a work setting.
 
+5. Learning and familiarizing myself with the whole workflow, from doing multiple EC2 runs to taking screenshots and uploading the evidence to GitHub, helps me see the big picture of 
+setting up work, documenting and clean up. Through repetition those pieces build confidence and positive habits of software collaboration.
 
 
 
@@ -26,5 +34,5 @@ A POST request, on the other hand, is information being sent to website so it ca
 
 4. You can clone your own GitHub repository on virtually any EC2 instance without the need to authenticate or use tokens. Simply typing in the "git clone" command along with your GitHub's link will have it sent to the instance with every single folder in it.
 
-5. While an instance is running, you can launch a second instance using the same using the same IP command to log into it as the first one. 
+5. While an instance is running, you can launch a second instance using the same IP command to log into it as the first one. 
 When doing one of the runs, I was able to launch into the same instance to ask the COBOL core questions via the banking interface and the "curl" command. 
