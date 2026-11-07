@@ -1,0 +1,18 @@
+Which severities arrived, and WHY those?
+Answer: All severities arrived because the slack.py was configured to where anything INFO was in the LEVELS list, making it so any alert coming after INFO would post in Slack.
+
+How many hours apart are server time and YOUR wall clock?
+Answer: UTC and my time in CST is six hours apart.
+
+Why is a quiet INFO here GOOD design, not a failure?
+Answer: Quiet INFO alerts are good as they don't disrupt engineers that are in a workflow. If there was an alert every time the disk space filled a bit on a machine, it would be hard to get work done. 
+
+What would make this number spike on the Balerica bank?
+Answer: Constant requests being sent to the server could increase the CPU usage of the machine.
+
+Which of these fake incidents deserves to wake a human at 3 AM?
+Answer: I believe only the critical alerts deserve attention at 3AM as they could be the most detrimental since ledgers are important to the business.
+
+How many of the four messages will arrive?
+Prediction: Looking at the slack.py file, it seems that the alerts are numbered from 0-3. There's an if statement that shows if any of the alerts in the LEVELS list is less than the minimum, which is ERROR(2), it'll return false. I believe only the critical and error alert will show in Slack after the change.
+Answer: Only the critical alert came through regarding the threshold. 
